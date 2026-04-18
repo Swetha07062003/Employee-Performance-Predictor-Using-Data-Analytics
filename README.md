@@ -166,11 +166,11 @@ RandomForestClassifier(n_estimators=200, random_state=42)
 The trained Random Forest model achieved the following results on the test dataset:
 
 ```text
-Accuracy: 78%
+Accuracy: 83.50%
 
-High Performer   → Precision: 0.82   Recall: 0.96   F1-Score: 0.88
-Medium Performer → Precision: 0.60   Recall: 0.54   F1-Score: 0.57
-Low Performer    → Precision: 0.94   Recall: 0.55   F1-Score: 0.69
+High Performer   → Precision: 1.00   Recall: 0.45   F1-Score: 0.62
+Medium Performer → Precision: 0.77   Recall: 0.94   F1-Score: 0.84
+Low Performer    → Precision: 0.91   Recall: 0.88   F1-Score: 0.89
 ```
 
 The model provides balanced predictions across High, Medium, and Low performers based on employee experience, attendance, projects completed, manager feedback, training hours, and previous ratings.
