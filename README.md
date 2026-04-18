@@ -304,14 +304,18 @@ Medium Performer
 
 ## Future Improvements
 
-This project can be improved further by:
-
-* Using a real HR dataset
-* Adding more employee-related features
-* Using advanced algorithms like XGBoost
-* Building a web application with login system
-* Adding employee attrition prediction
-* Creating a real-time HR analytics dashboard
-* Deploying the project online
+- Use a larger and more realistic employee dataset collected from multiple departments
+- Integrate real HRMS or employee management system data
+- Improve prediction accuracy using advanced algorithms such as XGBoost or Gradient Boosting
+- Add explainable AI techniques to show why a particular employee was predicted as High, Medium, or Low performer
+- Build a more advanced Streamlit dashboard with charts and downloadable reports
+- Add employee attrition prediction along with performance prediction
+- Deploy the project online using Streamlit Cloud or Render
+- Add role-based login for HR managers and employees
+- Include monthly performance tracking and trend analysis
+- Create a recommendation system that suggests training or improvement plans for each employee
 
 ---
+## Author
+
+Swetha K
