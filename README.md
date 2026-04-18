@@ -163,24 +163,17 @@ RandomForestClassifier(n_estimators=200, random_state=42)
 
 ## Model Accuracy
 
-The trained model achieved approximately:
+The trained Random Forest model achieved the following results on the test dataset:
 
 ```text
 Accuracy: 78%
+
+High Performer   → Precision: 0.82   Recall: 0.96   F1-Score: 0.88
+Medium Performer → Precision: 0.60   Recall: 0.54   F1-Score: 0.57
+Low Performer    → Precision: 0.94   Recall: 0.55   F1-Score: 0.69
 ```
 
-Sample classification result:
-
-```text
-              precision    recall    f1-score
-High             0.82      0.96       0.88
-Medium           0.60      0.54       0.57
-Low              0.94      0.55       0.69
-```
-
-The model predicts High performers most accurately.
-
----
+The model predicts High Performers most accurately, while Medium and Low performers can be improved further with more training data and advanced models.
 
 ## Visualizations Generated
 
@@ -261,16 +254,19 @@ streamlit run src/app.py
 
 ## Sample Prediction
 
-Example employee input:
+Example employee input shown in Dashboard 2:
 
 ```text
+Employee ID: 1001
 Age: 30
 Experience: 5 years
 Department: IT
+Salary: 60000
 Training Hours: 40
-Attendance: 85%
+Attendance Percentage: 85
 Projects Completed: 5
 Manager Feedback: 3
+Overtime Hours: 10
 Previous Rating: 3
 ```
 
@@ -282,29 +278,27 @@ Medium Performer
 
 ---
 
-```markdown
-
+## Screenshots
 
 ### Dashboard Preview
 
-![Dashboard 1](images/Dashboard1.png)
+<img src="images/Dashboard1.png" width="800">
 
-![Dashboard 2](images/Dashboard2.png)
+<img src="images/Dashboard2.png" width="800">
 
-![Dashboard 3](images/Dashboard3.png)
+<img src="images/Dashboard3.png" width="800">
 
 ### Performance Distribution
 
-![Performance Distribution](images/performance_distribution.png)
+<img src="images/performance_distribution.png" width="800">
 
 ### Department vs Performance
 
-![Department vs Performance](images/department_performance.png)
+<img src="images/department_performance.png" width="800">
 
 ### Correlation Heatmap
 
-![Correlation Heatmap](images/correlation_heatmap.png)
-```
+<img src="images/correlation_heatmap.png" width="800">
 
 ---
 
@@ -321,5 +315,3 @@ This project can be improved further by:
 * Deploying the project online
 
 ---
-
-
