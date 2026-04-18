@@ -280,24 +280,23 @@ Medium Performer
 
 ## Screenshots
 
-### Dashboard Preview
+## Screenshots
 
+### Medium Performer Dashboard
 <img src="images/Dashboard1.png" width="800">
 
 <img src="images/Dashboard2.png" width="800">
 
+### Low Performer Dashboard
 <img src="images/Dashboard3.png" width="800">
 
 ### Performance Distribution
-
 <img src="images/performance_distribution.png" width="800">
 
 ### Department vs Performance
-
 <img src="images/department_performance.png" width="800">
 
 ### Correlation Heatmap
-
 <img src="images/correlation_heatmap.png" width="800">
 
 ---
