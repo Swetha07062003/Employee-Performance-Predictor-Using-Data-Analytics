@@ -282,27 +282,28 @@ Medium Performer
 
 ---
 
-## Screenshots
-
-Add the following screenshots to the repository:
-
-* Dashboard1.png
-* Dashboard2.png
-* Dashboard3.png
-* performance_distribution.png
-* department_performance.png
-* correlation_heatmap.png
-
-Example section:
-
 ```markdown
-## Dashboard Preview
-![Dashboard](images/Dashboard1.png)
-![Dashboard](images/Dashboard2.png)
-![Dashboard](images/Dashboard3.png)
 
-## Performance Distribution
-![Graph](images/performance_distribution.png)
+
+### Dashboard Preview
+
+![Dashboard 1](images/Dashboard1.png)
+
+![Dashboard 2](images/Dashboard2.png)
+
+![Dashboard 3](images/Dashboard3.png)
+
+### Performance Distribution
+
+![Performance Distribution](images/performance_distribution.png)
+
+### Department vs Performance
+
+![Department vs Performance](images/department_performance.png)
+
+### Correlation Heatmap
+
+![Correlation Heatmap](images/correlation_heatmap.png)
 ```
 
 ---
@@ -322,11 +323,3 @@ This project can be improved further by:
 ---
 
 
-
-
-
-## Tags
-
-```text
-python machine-learning hr-analytics employee-performance random-forest streamlit data-science scikit-learn
-```
