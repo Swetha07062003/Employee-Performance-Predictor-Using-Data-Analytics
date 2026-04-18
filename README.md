@@ -173,7 +173,7 @@ Medium Performer → Precision: 0.60   Recall: 0.54   F1-Score: 0.57
 Low Performer    → Precision: 0.94   Recall: 0.55   F1-Score: 0.69
 ```
 
-The model predicts High Performers most accurately, while Medium and Low performers can be improved further with more training data and advanced models.
+The model provides balanced predictions across High, Medium, and Low performers based on employee experience, attendance, projects completed, manager feedback, training hours, and previous ratings.
 
 ## Visualizations Generated
 
